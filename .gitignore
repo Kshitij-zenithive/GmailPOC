@@ -1,0 +1,37 @@
+# Ignore the .env file
+.env
+
+# Ignore build and dependency directories
+bin/
+obj/
+vendor/
+node_modules/
+coverage/
+dist/
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+*.log
+
+# Ignore compiled Go binaries
+*.exe
+*.exe~
+*.out
+*.o
+
+# Ignore temporary files
+*.tmp
+*.swp
+*.bak
+
+# Ignore IDE/editor-specific files
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Ignore Docker artifacts
+docker-compose.override.yml
